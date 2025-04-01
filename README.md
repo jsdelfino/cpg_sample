@@ -4,7 +4,7 @@ A sample program to experiment with [Joern](https://github.com/joernio/joern)
 and [Atom](https://github.com/AppThreat/atom).
 
 /app/requests contains a copy of an old version of the
-[Request](https://github.com/psf/requests) source code
+[Request](https://github.com/psf/requests) source code.
 
 Joern and Atom are used to analyze that source code and generate graphml
 representations of Code Property Graphs (CPGs) for it.
@@ -47,4 +47,11 @@ Do the same with the Atom exports:
 ```
 USE_ATOM=true python ./sample.py 2>&1 | tee atom_sample.log
 ```
+
+The Atom version doesn't work yet. The following issues have been opened in
+the Atom project:
+
+https://github.com/AppThreat/atom/issues/187
+
+https://github.com/AppThreat/atom/issues/188
 
